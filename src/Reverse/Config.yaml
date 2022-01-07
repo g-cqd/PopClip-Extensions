@@ -1,0 +1,6 @@
+name: Reverse
+icon: symbol:arrow.triangle.capsulepath
+javascript: return popclip.input.text.split(/\n/um).reverse().join('\n')
+after: paste-result
+identifier: dev.aemi.extensions.reverse
+shortcut name: Reverse
